@@ -94,7 +94,12 @@
                         <path>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
+<<<<<<< HEAD
                             <version>${lombok.version}</version>
+=======
+                            <!-- FIX: Versión explícita requerida por el compilador -->
+                            <version>1.18.30</version>
+>>>>>>> f9faecf (se configuro la version del lombok)
                         </path>
                     </annotationProcessorPaths>
                 </configuration>
@@ -107,7 +112,6 @@
                         <exclude>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
-                            <version>1.18.30</version>
                         </exclude>
                     </excludes>
                 </configuration>
